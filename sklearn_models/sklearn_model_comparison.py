@@ -9,8 +9,6 @@ import sys
 from matplotlib import rcParams
 from matplotlib.pyplot import figure
 
-
-
 rcParams['font.family'] = 'arial'
 
 ROOT_DIR = os.path.abspath("../")

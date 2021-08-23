@@ -1,1 +1,1 @@
-{"rad": "Radius", "nar1_asp": "R1 AR", "nar2_asp": "R3 AR", "nar1_per": "R1 Per", "nar2_per": "R3 Per", "nar1_area": "R1 Area", "nar2_area": "R3 Area", "delta_asp": "R1-R3 AR", "r1_slope": "R2 Slope", "r2_slope": "R3 Slope"}
+{"rad": "Radius", "rel_nar1_asp": "R1 AR", "rel_nar2_asp": "R3 AR", "nar1_per": "R1 Per", "nar2_per": "R3 Per", "nar1_area": "R1 Area", "nar2_area": "R3 Area", "delta_asp": "R1-R3 AR", "r1_slope": "R2 Slope", "r2_slope": "R3 Slope"}

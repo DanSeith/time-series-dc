@@ -17,10 +17,6 @@ feature_list = list(feature_dict)
 
 # Load dataset
 df = pd.read_pickle(os.path.join(ROOT_DIR, 'FINAL_DF_light'))
-df = df_utils.filter_df(df, ymax=5, max_ar=1.1, radius_std=3)
-df = df[(df.cell == 'hl60') | (df.cell == 'hl60d')]
-df = df[np.logical_not((df.cell == 'hl60') & (df.date == '11-3-20') & (df.run == '0'))]
-df = df[np.logical_not((df.cell == 'hl60') & (df.date == '11-5-20') & (df.run == '3'))]
 df.dropna(inplace=True)
 
 # Extract features
